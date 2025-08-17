@@ -29,7 +29,7 @@ Arabic formatting follows traditional Arabic grammar rules based on the number:
 | Number Range | Rule | Example (days) |
 |--------------|------|----------------|
 | 1 | Singular with "واحد" | `يوم واحد` |
-| 2 | Dual form (مرفوع/منصوب) | `يومان` / `يومين` |
+| 2 | Dual form (مرفوع/مجرور) | `يومان` / `يومين` |
 | 3-10 | Plural form | `أيام` |
 | 11-99 | Singular with تنوين | `يوماً` |
 | 100+ | Cycles back based on last two digits | `100 يوم`, `103 أيام` |
@@ -82,7 +82,7 @@ Arabic formatting follows traditional Arabic grammar rules based on the number:
 The third parameter controls Arabic dual forms:
 ```typescript
 {{ 2 | timeUnit:'day':'مرفوع' }}  // "يومان" (nominative)
-{{ 2 | timeUnit:'day':'منصوب' }}  // "يومين" (accusative/genitive)
+{{ 2 | timeUnit:'day':'مجرور' }}  // "يومين" (accusative/genitive)
 ```
 
 #### Number Display Logic
