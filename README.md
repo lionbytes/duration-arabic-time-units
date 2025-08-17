@@ -1,4 +1,4 @@
-# Duration Arabic Time Units
+# Duration Arabic Time Units Pipe
 
 An Angular TypeScript pipe for bilingual time duration formatting. Supports English and Arabic with proper Arabic grammatical rules to count months, days, hours and minutes.
 
