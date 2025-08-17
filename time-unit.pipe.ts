@@ -8,7 +8,7 @@ export class TimeUnitPipe implements PipeTransform {
   transform(
       value: number, 
       unit: 'day' | 'month' | 'hour' | 'minute', 
-      dual: string = "منصوب"
+      dual: string = "مجرور"
   ): string {
     
     if (isNaN(value)) {
