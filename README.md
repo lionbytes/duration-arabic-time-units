@@ -40,7 +40,7 @@ Arabic formatting follows traditional Arabic grammar rules based on the number:
 2: شهرين/شهران
 3-10: أشهر
 11-99: شهراً
-100: شهر
+100-102: شهر
 ```
 #### Days
 ```
@@ -48,7 +48,7 @@ Arabic formatting follows traditional Arabic grammar rules based on the number:
 2: يومين/يومان
 3-10: أيام
 11-99: يوماً
-100: يوم
+100-102: يوم
 ```
 #### Hours
 ```
@@ -56,7 +56,7 @@ Arabic formatting follows traditional Arabic grammar rules based on the number:
 2: ساعتين/ساعتان
 3-10: ساعات
 11-99: ساعة
-100: ساعة
+100-102: ساعة
 ```
 #### Minutes
 ```
@@ -64,16 +64,17 @@ Arabic formatting follows traditional Arabic grammar rules based on the number:
 2: دقيقتين/دقيقتان
 3-10: دقائق
 11-99: دقيقة
-100: دقيقة
+100-102: دقيقة
 ```
 
 #### Examples
+```
 - 205 أيام   
 - 177 شهراً
 - 310 ساعات
 - 602 يوم
 - 901 شهر
-
+```
 
 ### Special Features
 
